@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>UntrefSchool</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="pie_de_pagina.css"/>
+        <link rel="stylesheet" href="contacto.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="img/logo.png" alt="logo principal"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="Quienes_somos.html">Quienes somos</a></li>
+                        <li><a href="Elegirnos.html">¿Por que elegirnos?</a></li>
+                        <li><a href="PropuestaEducativa.html">Propuesta educativa</a></li>
+                        <li><a href="Ultimasnoticias.html">Ultimas noticias</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+ 
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+ 
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX"> 
+ 
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+ 
+                <fieldset>
+                    <legend>¿Còmo le gustarìa que lo contactemos?</legend>
+ 
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+    
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+                  
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                </fieldset>
+ 
+                <fieldset>
+                    <legend>¿En que horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+ 
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustarìa recibir novedades de la Untref School?</label>
+ 
+                <input type="submit" value="Enviar formulario" class="enviar">
+ 
+             </form>
+ 
+             <table>
+                 <thead>
+                     <tr>
+                         <td>Dìa</td>
+                         <td>horario</td>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td>Lunes</td>
+                         <td>08 - 20h</td>
+                     </tr>
+                     <tr>
+                         <td>Mièrcoles</td>
+                         <td>08 - 20h</td>
+                     </tr>
+                     <tr>
+                         <td>Viernes</td>
+                         <td>08 - 20h</td>
+                     </tr>
+                 </tbody>
+             </table>
+         </main>
+         <footer>
+             <img src="img/logo.png" alt="logo">
+             <p class="copyright">&copy Copyright Untref School 2023</p>
+         </footer>
+     </body>
+ </html>

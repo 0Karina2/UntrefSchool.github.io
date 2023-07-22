@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+form{
+    font-family: 'Poppins', sans-serif;
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input.padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: #00425A;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background:#00425A ;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 40px;  
+}
+
+thead{
+    background: #00425A;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #00425A;
+    padding: 8px 15px;
+}
+
+@media screen and (min-width: 0) {
+    .enviar {
+        padding: 5rem 0 0 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .enviar {
+        padding: 5rem 0 0 2.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 922px) {
+    .enviar {
+        padding: 5rem 0 0 5rem;
+    }
+    
+}

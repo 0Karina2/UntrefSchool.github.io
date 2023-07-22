@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #00425A;
+    padding: 20px, 0;
+}
+
+.caja {
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 15px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: initial;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: #00425A;
+    padding: 40px;
+}
+
+.copyright {
+    color: #EFF5F5;
+    font-size: 13px;
+    margin: 20;
+}
+
+@media screen and (min-width: 0) {
+    .recetas {
+        padding: 5rem 0 0 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .recetas {
+        padding: 5rem 0 0 2.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 922px) {
+    .recetas {
+        padding: 5rem 0 0 5rem;
+    }
+    
+}
