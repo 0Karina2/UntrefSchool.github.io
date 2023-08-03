@@ -1,26 +1,33 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    text-align: center;
     background-color: #00425A;
+    padding: 40px;
 
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
+}
+
+.footer__logo {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.footer__titulo{
+    display:grid;
+
 }
 
 .footer__contacto {
-    display: inline;
+    display: flex;
+    list-style: none;
+    margin-right: 1.25rem;
     
 }   
 
 .footer__midia {
-    display: grid;
-
-    width: 2px;
-    height: 2px;
-
+    display: block;
+    width: 42px;
+    height: 42px;
     margin: 2rem 1rem;
 }
 
@@ -30,7 +37,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .footer__navegacion {
+    .footer__midia {
         text-align: left;
         min-width: 600px;
     }

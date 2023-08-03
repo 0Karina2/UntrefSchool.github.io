@@ -9,7 +9,8 @@ header {
 }
 
 .caja {
-    width: 940px;
+    width: 100%;
+    position: static;
     margin: 0 auto;
 }
 
@@ -36,35 +37,14 @@ nav a {
     width: 100%;
 }
 
-footer {
-    text-align: center;
-    background: #00425A;
-    padding: 40px;
-}
-
-.copyright {
-    color: #EFF5F5;
-    font-size: 13px;
-    margin: 20;
-}
-
-@media screen and (min-width: 0) {
-    .recetas {
-        padding: 5rem 0 0 1rem;
+@media screen and (min-width: 1024px) {
+    header {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
-    
-}
-
-@media screen and (min-width: 768px) {
-    .recetas {
-        padding: 5rem 0 0 2.5rem;
+    .caja {
+        text-align: left;
+        min-width: 600px;
     }
-    
-}
-
-@media screen and (min-width: 922px) {
-    .recetas {
-        padding: 5rem 0 0 5rem;
-    }
-    
 }
